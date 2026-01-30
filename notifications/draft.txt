@@ -1,0 +1,10 @@
+8288037069:AAEBRQ47A736dJWErMCrG8wDvgbrdexPHd4
+
+https://api.telegram.org/bot8288037069:AAEBRQ47A736dJWErMCrG8wDvgbrdexPHd4/getUpdates
+
+-528864937
+
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "-5288649373", "text": "Hello World!", "disable_notification": true}' \
+     https://api.telegram.org/bot8288037069:AAEBRQ47A736dJWErMCrG8wDvgbrdexPHd4/sendMessage

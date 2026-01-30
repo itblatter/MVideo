@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "MVideo",
+    "environment": "IT Blatter",
+    "comment": "Tag @itblatter",
+    "reportLink": "http://localhost:8080/job/MVideo/",
+    "language": "ru",
+    "allureFolder": "C:/ProgramData/Jenkins/.jenkins/workspace/MVideo/allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "8288037069:AAEBRQ47A736dJWErMCrG8wDvgbrdexPHd4",
+    "chat": "-5288649373",
+    "replyTo": ""
+  }
+}
