@@ -21,7 +21,6 @@ public class TestBase {
     @BeforeAll // выполняет настройки которые в ней заданы ПЕРЕД ВСЕМИ тестами один раз
     static void beforeAll() {
         Configuration.browser = "chrome";
-        Configuration.remote = "http://localhost:4444/wd/hub";
         Configuration.timeout = 10000;
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager"; //стратегия загрузки, не дожидаемся полной загрузки
